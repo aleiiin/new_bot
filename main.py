@@ -1,7 +1,6 @@
 import configparser
 import contextlib
 
-from XlsxWriter.workbook import Workbook
 from db import *
 import logging
 from aiogram import Bot, Dispatcher, executor, types
@@ -10,6 +9,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import (Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup,
                            ReplyKeyboardRemove)
+from XlsxWriter.workbook import Workbook
 from datetime import datetime
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
