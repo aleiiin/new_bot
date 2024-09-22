@@ -41,10 +41,10 @@ menu_adm.add(InlineKeyboardButton(text="Предложения", callback_data='
 logging.basicConfig(level=logging.INFO)
 
 storage = MemoryStorage()
-# bot = Bot(token=API_TOKEN, proxy='http://proxy.server:3128')
+bot = Bot(token=API_TOKEN, proxy='http://proxy.server:3128')
 # "http://QDP7WVW8O1:XMFDDihuPd@194.31.73.156:31739"
 
-bot = Bot(token=API_TOKEN)
+# bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=storage)
 
 cur = con.cursor()
