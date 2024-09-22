@@ -7,7 +7,7 @@ cur = con.cursor()
 
 ADMINS = [7137240331]
 
-API_TOKEN = '7290212966:AAEzBfv3S-dJFUT3Tw22yd-6f1_n58H2tFg'
+API_TOKEN = '6671050988:AAHjUP4n2z410I327pstrI-deETonGmFPLk'
 
 
 def get_date():
