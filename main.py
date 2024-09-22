@@ -1,7 +1,7 @@
 import configparser
 import contextlib
 
-from xlsxwriter.workbook import Workbook
+from XlsxWriter.workbook import Workbook
 from db import *
 import logging
 from aiogram import Bot, Dispatcher, executor, types
